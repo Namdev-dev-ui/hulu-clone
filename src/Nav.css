@@ -1,0 +1,27 @@
+.Nav{
+display: flex;
+color: white;
+overflow-x: scroll;
+padding: 20px;
+padding-left: 20px;
+}
+/*To hide scroll bar on scroll just a snippet copy from W3school*/
+.Nav::-webkit-scrollbar {
+    display: none;
+}
+.Nav > h2{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 500;
+
+    /*To do a animation following  steps are imp like when we move the cursor on it 
+    it chnages light and increase the size of text*/
+  /*Following look carefully as oral point of you rahulya */
+    opacity:0.7 ;
+    transition: transform 50ms ease-out;
+}
+.Nav>h2:hover{
+opacity: 1;
+transform: scale(1.2);
+}

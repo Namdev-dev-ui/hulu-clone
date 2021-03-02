@@ -1,0 +1,63 @@
+.header{
+    color: hsl(0, 18%, 97%);
+    display: flex;
+    padding: 20px;
+    align-items: center;
+   justify-content: space-between;
+
+
+}
+.hearder_icon{
+ display: flex;
+ flex-direction: column;
+  width: 100px;
+  margin-right: 30px;
+ 
+ }
+
+ .hearder_icon > .MuiSvgIcon-root {
+     /*gives cesnter alignment to each and every tag*/
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+}
+
+/*To hide scroll bar on scroll just a snippet copy from W3school*/
+.hearder_icon::-webkit-scrollbar {
+    display: none;
+}
+/*impotant because the home tag show always this is very imp please look into it*/
+.hearder_icon--Active>p{
+    display: inline-flex !important;
+
+}
+.hearder_icon:hover > p {
+  
+   display: inline-flex;
+
+}
+.hearder_icon > p {
+    /*To do not show tags by default*/
+    display: none;
+    text-transform:uppercase ;
+    letter-spacing: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: small;
+
+}
+.Header_icons{
+    display: flex;
+    text-align: center;
+    align-items:center ;
+
+    /*changes the cursor*/
+    cursor: pointer;
+}
+.header > img{
+    object-fit: contain;
+    height: 80px;
+    background-color:linear-gradient(to right,#051421,#042727);
+    width: fit-content;
+}
+

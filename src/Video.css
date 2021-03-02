@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.Video{
+color: white;
+width:370px;
+height:300px;
+transition: transform 100ms ease-out;
+
+}
+.Video:hover{
+      transform: scale(1.09);
+    
+    }
+.Video>img{
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+}
+.Video>p{
+    padding-left: 10px;
+
+margin-left: auto;
+margin-right: auto;
+}
